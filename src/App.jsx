@@ -23,6 +23,7 @@ function App() {
       })
       .catch((error) => {
         console.log("Error Occurred => ", error);
+        alert("failed to fetch data");
       });
   }, []);
 
@@ -55,9 +56,7 @@ function App() {
                   ))}
                 </>
               ) : (
-                <>
-                  <div className="error">Error</div>
-                </>
+                <></>
               )}
             </tbody>
           </table>
