@@ -1,0 +1,83 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  width: 100%;
+  min-height: 70px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabledata {
+  width: 100%;
+  height: fit-content;
+}
+
+table {
+  box-shadow: 0 0 5px rgb(151, 148, 148);
+  width: 98%;
+  border-radius: 5px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-bottom: 2px solid rgb(0, 152, 121);
+}
+
+thead {
+  background-color: rgb(0, 152, 121);
+  color: white;
+}
+
+tr {
+  height: 40px;
+}
+
+th,
+td {
+  padding-left: 1rem;
+  text-align: start;
+}
+
+tbody tr td {
+  font-weight: lighter;
+}
+
+tbody tr {
+  border-bottom: 1px solid rgb(224, 217, 217);
+}
+
+.pagination {
+  min-width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+.pagination button {
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  border: 0;
+  background-color: rgb(0, 152, 121);
+  border-radius: 4px;
+  padding: 0.35rem 0.75rem;
+}
+
+.pagination div {
+  color: white;
+  background-color: rgb(0, 152, 121);
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 40px;
+}
